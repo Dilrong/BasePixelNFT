@@ -1,0 +1,19 @@
+{
+  "name": "pixel-nft",
+  "author": "dilrong",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run --network base-goerli scripts/deploy.ts",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7"
+  }
+}
